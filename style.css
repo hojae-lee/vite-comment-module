@@ -1,0 +1,113 @@
+#comments {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#comment-form {
+  margin-bottom: 10px;
+}
+
+#comment-form input,
+#comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#comment-form textarea {
+  height: 100px;
+}
+
+#comment-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#comment-form button:hover {
+  background-color: #0056b3;
+}
+
+#comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.comment-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.comment-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.reply-form {
+  margin-top: 10px;
+}
+
+.reply-form input,
+.reply-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.reply-form textarea {
+  height: 60px;
+}
+
+.reply-form button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reply-form button:hover {
+  background-color: #0056b3;
+}
+
+.reply-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.reply-item {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.reply-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
